@@ -12,11 +12,6 @@ This project analyzes lung cancer prediction using **R for data preprocessing** 
 1. **Smoking vs. Predictions** (Stacked Bar Chart)
 2. **Age vs. Predictions** (Trendline Analysis)
 
-## Visualizations in the Dashboard:
-
-1. **Smoking vs. Predictions (Stacked Bar Chart)**
-2. **Age vs. Predictions (Trendline Analysis)**
-
 ### Data Insights & Visualizations
 
 #### Distribution of Lung Cancer Cases  
