@@ -12,34 +12,6 @@ This project analyzes lung cancer prediction using **R for data preprocessing** 
 1. **Smoking vs. Predictions** (Stacked Bar Chart)
 2. **Age vs. Predictions** (Trendline Analysis)
 
-## Project Structure
-
-```sql
-Real-World Cancer Insights System/
-│── Data/
-│   ├── Lung_Cancer_Cleaned.csv
-│   ├── Lung_Cancer_Predictions_Tableau.csv
-│   ├── Survey_Lung_Cancer.csv
-│
-│── Scripts/
-│   ├── Google Colab/
-│   │   ├── Compare_Models.ipynb
-│   │   ├── Lung_Cancer_Prediction.ipynb
-│   │
-│   ├── R Scripts/
-│   │   ├── 01_load_data.R
-│   │   ├── 02_check_missing_values.R
-│   │   ├── 03_convert_categorical_columns.R
-│   │   ├── 04_save_cleaned_data.R
-│   │   ├── 05_class_distribution_and_summary.R
-│   │   ├── 06_distribution_categorical_variables.R
-│   │   ├── 07_distribution_numerical_variables.R
-│
-│── Tableau/
-│   ├── Lung_Cancer_Prediction_Dashboard.twbx
-│
-│── README.md
-
 ## Installation & Usage
 
 ### 🖥Opening Tableau Dashboard
@@ -83,3 +55,31 @@ Real-World Cancer Insights System/
 - **Smokers** are significantly more likely to be predicted as lung cancer positive.
 - **Younger individuals** have a slightly higher rate of lung cancer predictions.
 - **Machine Learning models** were evaluated to find the best predictive approach.
+
+## Project Structure
+
+```sql
+Real-World Cancer Insights System/
+│── Data/
+│   ├── Lung_Cancer_Cleaned.csv
+│   ├── Lung_Cancer_Predictions_Tableau.csv
+│   ├── Survey_Lung_Cancer.csv
+│
+│── Scripts/
+│   ├── Google Colab/
+│   │   ├── Compare_Models.ipynb
+│   │   ├── Lung_Cancer_Prediction.ipynb
+│   │
+│   ├── R Scripts/
+│   │   ├── 01_load_data.R
+│   │   ├── 02_check_missing_values.R
+│   │   ├── 03_convert_categorical_columns.R
+│   │   ├── 04_save_cleaned_data.R
+│   │   ├── 05_class_distribution_and_summary.R
+│   │   ├── 06_distribution_categorical_variables.R
+│   │   ├── 07_distribution_numerical_variables.R
+│
+│── Tableau/
+│   ├── Lung_Cancer_Prediction_Dashboard.twbx
+│
+│── README.md
