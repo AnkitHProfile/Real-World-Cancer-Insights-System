@@ -4,9 +4,9 @@
 This project analyzes lung cancer prediction using **R for data preprocessing** and **Tableau for visualization**.
 
 ### Key Components:
-- **Data Cleaning & Preparation** → [R Scripts](Scripts/R)
-- **Model Comparison & Predictions** → [Google Colab](Scripts/Google_Colab)
-- **Interactive Dashboard** → [Tableau](Tableau)
+- **Data Cleaning & Preparation** → R Scripts
+- **Model Comparison & Predictions** → Google Colab
+- **Interactive Dashboard** → Tableau
 
 ## Visualizations in the Dashboard:
 1. **Smoking vs. Predictions** (Stacked Bar Chart)
