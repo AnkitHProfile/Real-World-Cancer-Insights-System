@@ -13,31 +13,32 @@ This project analyzes lung cancer prediction using **R for data preprocessing** 
 2. **Age vs. Predictions** (Trendline Analysis)
 
 ## Project Structure
-Real-World Cancer Insights System/
-│── Data/                         # Contains cleaned and processed datasets
-│   ├── Lung_Cancer_Cleaned.xlsx   # Preprocessed dataset used for predictions
-│   ├── Lung_Cancer_Predictions_Tableau.xlsx # Data formatted for Tableau visualization
-│   ├── Survey_Lung_Cancer.xlsx    # Raw survey data
-│
-│── Scripts/                       # Contains all analytical and predictive modeling scripts
-│   │── Google Colab/               # Jupyter Notebooks for machine learning and analysis
-│   │   ├── Compare_Models.ipynb    # Notebook comparing different ML models for predictions
-│   │   ├── Lung_Cancer_Prediction.ipynb  # Main ML prediction pipeline
-│   │
-│   ├── R Scripts/                  # R scripts for data preprocessing and statistical analysis
-│   │   ├── 01_load_data.R           # Load and inspect dataset
-│   │   ├── 02_check_missing_values.R # Identify missing values in data
-│   │   ├── 03_convert_categorical_columns.R # Encode categorical variables
-│   │   ├── 04_save_cleaned_data.R  # Save cleaned dataset
-│   │   ├── 05_class_distribution_and_summary.R # Summary statistics and class distribution
-│   │   ├── 06_distribution_categorical_variables.R # Categorical variable distribution analysis
-│   │   ├── 07_distribution_numerical_variables.R # Numerical variable distribution analysis
-│
-│── Tableau/                        # Contains Tableau visualizations and dashboards
-│   ├── Lung_Cancer_Prediction_Dashboard.twbx  # Tableau Workbook with all visualizations
-│
-│── README.md                        # Project documentation with insights, setup, and usage
 
+```sql
+Real-World Cancer Insights System/
+│── Data/
+│   ├── Lung_Cancer_Cleaned.csv
+│   ├── Lung_Cancer_Predictions_Tableau.csv
+│   ├── Survey_Lung_Cancer.csv
+│
+│── Scripts/
+│   ├── Google Colab/
+│   │   ├── Compare_Models.ipynb
+│   │   ├── Lung_Cancer_Prediction.ipynb
+│   │
+│   ├── R Scripts/
+│   │   ├── 01_load_data.R
+│   │   ├── 02_check_missing_values.R
+│   │   ├── 03_convert_categorical_columns.R
+│   │   ├── 04_save_cleaned_data.R
+│   │   ├── 05_class_distribution_and_summary.R
+│   │   ├── 06_distribution_categorical_variables.R
+│   │   ├── 07_distribution_numerical_variables.R
+│
+│── Tableau/
+│   ├── Lung_Cancer_Prediction_Dashboard.twbx
+│
+│── README.md
 
 ## Installation & Usage
 
