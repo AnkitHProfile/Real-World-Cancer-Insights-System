@@ -12,6 +12,28 @@ This project analyzes lung cancer prediction using **R for data preprocessing** 
 1. **Smoking vs. Predictions** (Stacked Bar Chart)
 2. **Age vs. Predictions** (Trendline Analysis)
 
+## Visualizations in the Dashboard:
+
+1. **Smoking vs. Predictions (Stacked Bar Chart)**
+2. **Age vs. Predictions (Trendline Analysis)**
+
+### Data Insights & Visualizations
+
+#### Distribution of Lung Cancer Cases  
+![Distribution of Lung Cancer Cases](Images/Distribution_of_lung_cancer.png)  
+
+This bar chart visualizes the distribution of lung cancer cases in the dataset. The majority of cases are classified as "YES," indicating a higher prevalence of lung cancer-positive individuals.
+
+#### Feature Importance for Lung Cancer Prediction  
+![Feature Importance for Lung Cancer Prediction](Images/Feature_Importance_for_Lung_Cancer_Prediction.png)  
+
+This horizontal bar chart displays the importance of various features in predicting lung cancer. Factors like wheezing, fatigue, and smoking show high predictive power, influencing the model's decision-making process.
+
+#### Tableau Dashboard - Lung Cancer Prediction Insights  
+![Tableau Dashboard](Images/Tableau_Dashboard.png)  
+
+This Tableau dashboard provides an interactive analysis of lung cancer predictions. It includes insights on smoking habits and age distribution, helping visualize patterns in lung cancer diagnosis across different demographics.
+
 ## Installation & Usage
 
 ### 🖥Opening Tableau Dashboard
